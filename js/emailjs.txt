@@ -1,0 +1,22 @@
+emailjs.init("user_ab6qzPH5TUg6Nl4k21Jlo");
+function send() {
+
+    if (document.getElementById("formular").checkValidity() == false) {
+        document.getElementById("formular").reportValidity();
+        return;
+    }
+
+    var date = {
+        nume: document.getElementById("nume").value,
+        email: document.getElementById("email").value,
+        mesaj: document.getElementById("mesaj").value
+    };
+
+    emailjs.send("service_sbze9jl", "template_ln5x4ov", date)
+        .then(function (raspuns) {
+            alert("Mesajul a fost transmis.")
+            document.getElementById("formular").reset();
+        }, function (error) {
+            alert("Eroare la transmitere. Contactati programatorul.")
+        })
+}
