@@ -52,3 +52,19 @@ function send() {
             console.log(error);
         })
 }
+
+function data(){
+    var date= new Date();
+    var an, luna, zi;
+    var text;
+    var h2;
+
+    an= date.getFullYear();
+    luna = date.getMonth() + 1;
+    zi = date.getDate();
+    text = zi+ "/" + luna+ "/"+ an;
+
+    div = document.getElementById("data");
+    div.innerHTML = text; 
+}
+data();
