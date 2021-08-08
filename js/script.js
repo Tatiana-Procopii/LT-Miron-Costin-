@@ -54,10 +54,10 @@ function send() {
 }
 
 function data(){
+    var div;
     var date= new Date();
     var an, luna, zi;
     var text;
-    var h2;
 
     an= date.getFullYear();
     luna = date.getMonth() + 1;
@@ -65,6 +65,6 @@ function data(){
     text = zi+ "/" + luna+ "/"+ an;
 
     div = document.getElementById("data");
-    div.innerHTML = text; 
+    div.innerHTML = "LT Miron Costin Florești </br> ®Toate drepturile sunt rezervate</br>"+ text; 
 }
 data();
