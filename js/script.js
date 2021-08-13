@@ -9,6 +9,22 @@ function menu() {
     document.getElementById("close").classList.toggle("hidden");
 }
 
+function data(){
+    var div;
+    var date= new Date();
+    var an, luna, zi;
+    var text;
+
+    an= date.getFullYear();
+    luna = date.getMonth() + 1;
+    zi = date.getDate();
+    text = zi+ "/" + luna+ "/"+ an;
+
+    div = document.getElementById("data");
+    div.innerHTML = "LT Miron Costin Florești </br> ®Toate drepturile sunt rezervate</br>"+ text; 
+}
+data();
+
 function slider() {
     var slides = document.getElementsByClassName("slide");
     var i = 0;
@@ -53,18 +69,4 @@ function send() {
         })
 }
 
-function data(){
-    var div;
-    var date= new Date();
-    var an, luna, zi;
-    var text;
 
-    an= date.getFullYear();
-    luna = date.getMonth() + 1;
-    zi = date.getDate();
-    text = zi+ "/" + luna+ "/"+ an;
-
-    div = document.getElementById("data");
-    div.innerHTML = "LT Miron Costin Florești </br> ®Toate drepturile sunt rezervate</br>"+ text; 
-}
-data();
