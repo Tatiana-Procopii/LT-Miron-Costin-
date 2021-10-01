@@ -395,7 +395,7 @@ footer img{
     color: rgb(33, 33, 34) !important;
     text-decoration: none;
 }
-.noutate {
+.noutate{
     position: relative;
     padding: 30px 15px 20px 15px;
     border: 2px solid lightgray;
@@ -421,7 +421,7 @@ footer img{
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.noutate p {
+.noutate p{
     margin-top: 10px;
     font-size: 90%; 
 }
@@ -517,6 +517,7 @@ footer img{
         display: block;
         float: none;   
     }
+
    
 
 }
