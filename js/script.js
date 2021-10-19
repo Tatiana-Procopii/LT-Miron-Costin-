@@ -42,7 +42,7 @@ function slider() {
 
 slider();
 setInterval(slider, 1500);
-new SimpleLightbox({elements: ".container-galerie a"});
+new SimpleLightbox({elements: ".detail a"});
 new SimpleLightbox({elements: ".content a"});
 
 emailjs.init("user_vFbROt1l9IOkMhIJlnDG7");

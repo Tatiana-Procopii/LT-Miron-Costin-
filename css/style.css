@@ -43,6 +43,11 @@ section{
 
 p {
     line-height: 160%;
+    align-content: center;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 1px;
 }
 
 .row{
@@ -257,7 +262,12 @@ img{
     justify-content: center;
     flex-wrap: wrap;
 }
-.container-galerie img{
+.detail{
+    display:block;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container-galerie img, .detail img{
     width: 150px;
     height: 150px;
     margin: 15px;
@@ -485,10 +495,20 @@ footer img{
         width: 95%;
         height: 40vh;
     }
+    .detail img{
+        width: 100px;
+        height: 100px;
+        margin: 0px;
+        margin-left: 35px;
+        margin-right: 5px;
+        margin-bottom: 10px;
+
+    }
+   
     .container-galerie {
         padding-left: 7px;
     }
-    .container-galerie img {
+    .container-galerie img{
         width: 145px;
         height: 145px;
         margin: 0px;
