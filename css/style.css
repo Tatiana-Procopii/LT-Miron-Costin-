@@ -530,7 +530,7 @@ footer img{
         margin-right: 0px;
     }
 
-    .noutate img {
+    .noutate img, iframe {
         max-width: 100%;
         margin-right: auto;
         margin-left: auto;
