@@ -420,13 +420,14 @@ footer img{
     right: 15px;
     font-size: 14px;
 }
-.noutate img {
+.noutate img, iframe {
     max-width: 33% ;
     float: left;
     margin-right: 15px;
     max-height: 300px ;
     border-radius: 5px;
 }
+
 .noutate h3 {
     margin-top: 0px;
     margin-bottom: 0px;
