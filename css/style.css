@@ -57,7 +57,7 @@ p {
     float: left;
     box-sizing: border-box;
 }
-.col-50 { width: 50%;}
+.col-50{ width: 50%;}
 #intro{
     background-image: url("../images/child.jpg");
     background-size: cover;
@@ -420,7 +420,7 @@ footer img{
     right: 15px;
     font-size: 14px;
 }
-.noutate img, iframe {
+.noutate img {
     max-width: 33% ;
     float: left;
     margin-right: 15px;
@@ -428,6 +428,13 @@ footer img{
     border-radius: 5px;
 }
 
+.noutate iframe {
+    max-width: 33% ;
+    float: left;
+    margin-right: 15px;
+    max-height: 300px ;
+    border-radius: 5px;
+}
 .noutate h3 {
     margin-top: 0px;
     margin-bottom: 0px;
