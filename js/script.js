@@ -59,7 +59,7 @@ function send() {
         mesaj: document.getElementById("mesaj").value
     };
 
-    emailjs.send("service_wdq5j4l", "template_a3c043a", date)
+    emailjs.send("service_ukowag6", "template_a3c043a", date)
         .then(function (raspuns) {
             alert("Mesajul a fost transmis.")
             document.getElementById("formular").reset();
