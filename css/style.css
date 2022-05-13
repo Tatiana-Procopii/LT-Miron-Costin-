@@ -445,6 +445,18 @@ footer img{
     font-size: 90%; 
 }
 
+.imagini-details {
+    border:2px solid lightblue;
+    padding: 15px;
+    max-width: 600px;
+    margin: 0px auto;
+
+}
+.imagini-details summary {
+    font-weight: bold;
+    cursor: pointer;
+}
+
 
 @keyframes rotire{
     0% { transform: rotatey(0deg) ;}
