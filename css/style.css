@@ -59,7 +59,7 @@ p {
 }
 .col-50{ width: 50%;}
 #intro{
-    background-image: url("../images/child.jpg");
+    background-image: url("../orar/back.jpg");
     background-size: cover;
     background-position: 50% 50%;
     display: flex;
@@ -150,14 +150,7 @@ p {
     right: 0px;
 
 }
-#menu-logo {
-    font-size: 28px;
-    text-align: center;
-    border-bottom: 2px solid white;
-    padding-bottom: 10px;
-    margin-bottom: 25px;
-   
-}
+
 
 #despre, #galerie, #acte, #contacte, #noutati {
     background: radial-gradient( rgb(182, 242, 252), #d8f9fe);
