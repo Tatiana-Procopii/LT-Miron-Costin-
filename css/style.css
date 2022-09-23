@@ -150,6 +150,14 @@ p {
     right: 0px;
 
 }
+#menu-logo {
+    font-size: 28px;
+    text-align: center;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+   
+}
 
 
 #despre, #galerie, #acte, #contacte, #noutati {
