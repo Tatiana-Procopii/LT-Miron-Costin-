@@ -457,6 +457,11 @@ footer img{
     font-weight: bold;
     cursor: pointer;
 }
+.noutates-details summary{
+    cursor: pointer;
+    color: red;
+    font-size: 28px;
+}
 
 
 @keyframes rotire{
