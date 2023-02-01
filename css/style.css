@@ -413,6 +413,7 @@ footer img{
     border-radius: 10px;
     margin-bottom: 25px;
     background-color: rgb(0, 0, 0, 0.2);
+    max-height: 500px;
     overflow: auto;
 }
 .noutate-data {
@@ -446,14 +447,14 @@ footer img{
     font-size: 90%; 
 }
 
-.imagini-details {
+details {
     border:2px solid lightblue;
     padding: 15px;
     max-width: 600px;
     margin: 0px auto;
 
 }
-.imagini-details summary {
+details summary {
     font-weight: bold;
     cursor: pointer;
 }
