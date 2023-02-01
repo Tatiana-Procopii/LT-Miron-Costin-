@@ -452,6 +452,7 @@ details {
     padding: 15px;
     max-width: 600px;
     margin: 0px auto;
+    cursor: pointer;
 
 }
 details summary {
