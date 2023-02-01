@@ -40,7 +40,6 @@ function slider() {
     }
 }
 
-slider();
 setInterval(slider, 1500);
 new SimpleLightbox({elements: ".detail a"});
 new SimpleLightbox({elements: ".content a"});
@@ -70,3 +69,4 @@ function send() {
 }
 
 
+slider();
