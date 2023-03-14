@@ -538,10 +538,10 @@ details summary {
         padding-left: 7px;
     }
     .container-galerie img{
-        width: 145px;
-        height: 145px;
-        margin: 0px;
-        margin-right: 7px;
+        width: 125px;
+        height: 125px;
+        margin: 5px;
+        
         margin-bottom: 10px;
     }
     #galerie iframe {
