@@ -274,12 +274,13 @@ img{
     margin: 15px;
     border: 3px solid rgb(200, 200, 200);
     object-fit: cover;
+
 }
 
 .container-galerie img:hover {
-    border: 3px solid rgb(42, 160, 42, 0.7);
+    border: 3px solid rgba(60, 140, 186, 0.7);
     transform: scale(1.05);
-    filter: drop-shadow(0 0 14px rgb(42, 160, 42, 0.7));
+    filter: drop-shadow(0 0 14px rgba(64, 117, 192, 0.7));
 
 }
 .video {
@@ -450,7 +451,7 @@ footer img{
 details {
     border:2px solid lightblue;
     padding: 15px;
-    max-width: 600px;
+    width: 80%;
     margin: 0px auto;
     cursor: pointer;
 
@@ -524,6 +525,9 @@ details summary {
         width: 95%;
         height: 40vh;
     }
+    /* .detail {
+        padding-right: 5px;
+    } */
     .detail img{
         width: 100px;
         height: 100px;
@@ -536,6 +540,7 @@ details summary {
    
     .container-galerie {
         padding-left: 7px;
+   
     }
     .container-galerie img{
         width: 125px;
