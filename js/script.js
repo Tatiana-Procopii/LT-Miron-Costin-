@@ -44,7 +44,7 @@ setInterval(slider, 1500);
 new SimpleLightbox({elements: ".detail a"});
 new SimpleLightbox({elements: ".content a"});
 
-emailjs.init("user_vFbROt1l9IOkMhIJlnDG7");
+emailjs.init("c1pdO4HeYDPxv-pzT");
 function send() {
 
     if (document.getElementById("formular").checkValidity() == false) {
