@@ -369,7 +369,7 @@ img{
 .formular-container input, .formular-container textarea {
     font-family: inherit;
     font-size: 18px;
-    color: rgb(255, 254, 254);
+    color: rgb(9, 9, 9);
     width: 80%;
     margin-bottom: 10px;
     resize: none;
