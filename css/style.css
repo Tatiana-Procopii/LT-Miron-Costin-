@@ -168,6 +168,14 @@ p {
     min-height: 60vh ;
 }
 
+.email {
+    text-decoration: none;
+    color: black;
+}
+
+.email:hover {
+    color:blue;
+}
 .centered {
     text-align:center;
 }
