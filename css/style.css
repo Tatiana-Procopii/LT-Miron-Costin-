@@ -41,7 +41,8 @@ section{
     padding: 10px 17% 70px 17%;
 }
 
-p {
+p, ol, li {
+    font-size: 12px;
     line-height: 160%;
     align-content: center;
     text-align: justify;
