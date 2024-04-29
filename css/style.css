@@ -42,7 +42,7 @@ section{
 }
 
 p, ol, li {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 160%;
     align-content: center;
     text-align: justify;
@@ -273,6 +273,7 @@ img{
     flex-wrap: wrap;
 }
 .detail{
+ 
     display:block;
     justify-content: center;
     flex-wrap: wrap;
@@ -283,6 +284,7 @@ img{
     margin: 15px;
     border: 3px solid rgb(200, 200, 200);
     object-fit: cover;
+
 
 }
 
@@ -298,6 +300,7 @@ img{
 
 .acordeon input{
     display: none;
+    
 }
 .acordeon label {
     display: block;
@@ -305,10 +308,12 @@ img{
     background-color: rgb(240, 240, 240);
     cursor: pointer;
     border: 2px solid rgb(220, 220, 220);
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
 .acordeon label:hover{
     font-weight: bold;
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(194, 193, 193);
 }
 .content{
     display: none;
