@@ -60,13 +60,15 @@ p, ol, li {
 }
 .col-50{ width: 50%;}
 #intro{
-    background-image: url("../orar/back.jpg");
-    background-size: cover;
-    background-position: 50% 50%;
+    background-image: url("../orar/back1.png");
+    background-size:cover;
+        background-position: 50% 50%;
     display: flex;
     padding: 0px;
+
     
 }
+
 
 #intro-content{
     width: 100%;
