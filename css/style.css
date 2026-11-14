@@ -164,7 +164,7 @@ p, ol, li {
 
 
 #despre, #galerie, #acte, #contacte, #noutati {
-    background: radial-gradient( rgb(221, 235, 237), #d8faff);
+    background: radial-gradient( rgb(221, 235, 237), #ebf7f9);
     color: black;
 }
 #contacte {
